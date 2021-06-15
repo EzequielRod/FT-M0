@@ -1,0 +1,86 @@
+body{
+  background-color: #1b2b42;
+}
+.nombre{
+  text-align: center;
+  background-color: #8dc9c1;
+}
+
+.foto{
+  background-color: #116776;
+  display: flex;
+  flex-direction: row;
+}
+
+img{
+  width: 340px;
+  height: 340px;
+}
+
+.foto h2{
+  display: flex;
+  float: right;
+  text-align: justify;
+}
+.foto p{
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 50px;
+  text-align: justify;
+  font-size: 18px;
+}
+.hoy{
+  text-align: center;
+  background-color: #e0be53;
+}
+.experiencias{
+  background-color: #116776;
+}
+.experiencias h3{
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 24px;
+
+}
+.experiencias p{
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 18px;
+}
+.hobbies{
+  background-color: #5c788a;
+  display: flex;
+  align-items: center;
+  padding-left: 160px;
+}
+.hobbies p{
+  padding-left: 50px;
+  font-size: 20px;
+}
+.skills{
+  background-color: #5c788a;
+  display: flex;
+  align-items: center;
+  padding-left: 160px;
+}
+.skills ul{
+  list-style-type: none;
+  padding-left: 150px;
+  font-size: 20px;
+}
+.skills li{
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+}
+.expectativa{
+  background-color: #278c94;
+}
+.expectativa h2{
+  font-size: 29px;
+}
+.expectativa p{
+  text-align: center;
+  font-style: oblique;
+  font-size: 23px;
+}
