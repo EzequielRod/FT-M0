@@ -1,17 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(https://i.pinimg.com/originals/cb/9e/ca/cb9eca3df09e878f8f7efc07d9ba52ea.jpg);
+}
+
 h1{
   color:red;
+  text-align: center;
 }
+h3,h4{
+  text-align: center;
+}
+span{
+  padding-left: 423px;
+}
+
 img{
   width:400px;
+  height: 230px;
 }
 .spanId{
+  display: block;
   font-size:18px;
-  margin50px;
+  margin:50px;
+
 }
 .thirdDiv{
   width:500px;
   height:600px;
   background-color: #cae0a2;
+  margin-left: 255px;
   padding:50px;
   border: 12px solid powderblue;
 }
