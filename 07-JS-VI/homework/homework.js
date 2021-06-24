@@ -70,14 +70,20 @@ function filter(array) {
   //Devolver un nuevo array con los elementos que cumplen
   //la condiciónv
   //Tu código:
-  var nuevoArray = [];
-  for(i = 0; i<array.length; i++) {
-    if(array[i][0] === "a") {
-      nuevoArray.push(array[i])
-    }
-  }
-  return nuevoArray;
+  // var nuevoArray = [];
+  // for(i = 0; i<array.length; i++) {
+  //   if(array[i][0] === "a") {
+  //     nuevoArray.push(array[i])
+  //   }
+  // }
+  // return nuevoArray;
 
+  var nuevoArra = array.filter(function(elemento){
+    if (elemento[0]=== 'a'){
+      return elemento;
+    }
+  });
+  return nuevoArra;
 }
 
 // No modificar nada debajo de esta línea
